@@ -26,5 +26,5 @@ config.optionxform = lambda option: option         # keep settings uppercase
 config.read_string(CONFIG_STRING)
 
 # Writing our configuration file to 'settings.ini'
-with open('../settings.ini', 'w') as configfile:
+with open('settings.ini', 'w') as configfile:
     config.write(configfile, False)
