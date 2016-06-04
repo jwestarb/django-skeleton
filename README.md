@@ -5,5 +5,5 @@
 1. Run Script! :D
 
 ```sh
-    script?
+    curl -o teste.sh https://raw.githubusercontent.com/CleitonDeLima/django-skeleton/master/contrib/setup.sh && bash ./temp.sh && rm temp.sh
 ```
