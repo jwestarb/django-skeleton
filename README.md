@@ -22,11 +22,17 @@
 
 1. Run Script! :D
 
-
 ```sh 
 curl -o temp.sh https://raw.githubusercontent.com/CleitonDeLima/django-skeleton/master/contrib/setup.sh 
 && bash ./temp.sh && rm temp.sh
 ```
+
+2. Activate venv!
+
+```sh
+source .project_name/bin/activate
+```
+
 
 
 --------------------------------------------------------------------------------------------
