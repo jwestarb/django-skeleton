@@ -1,0 +1,10 @@
+.idea
+.django-skeleton
+.venv
+__pycache__
+*.pyc
+settings.ini
+mediafiles
+staticfiles
+*.sqlite3
+

@@ -1,0 +1,10 @@
+Django==1.9.6
+django-extensions==1.6.7
+pytz
+python-decouple==3.0
+dj-database-url==0.4.1
+dj-static==0.0.6
+django-libsass==0.7
+django-ckeditor==5.0.3
+sorl-thumbnail==12.3
+Pillow==3.2.0
