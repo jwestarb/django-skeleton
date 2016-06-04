@@ -1,4 +1,5 @@
 .idea
+.env
 .django-skeleton
 .venv
 __pycache__

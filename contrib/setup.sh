@@ -15,7 +15,7 @@ if [ -n "${project_name}" ]; then
     pip install Django==1.9.6
     django-admin.py startproject --template=${TEMPLATE} --extension=${EXTENSIONS} ${project_name} .
     pip install -r requirements/development.txt
-    python3 contrib/settings_gen.py
+    python3 contrib/env_gen.py
     python manage.py makemigrations thumbnail
     python manage.py migrate
 fi
