@@ -38,13 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    '{{ project_name }}.core',
+    'apps.core',
 
     'django_extensions',
     'compressor',
     'ckeditor',
     'ckeditor_uploader',
     'sorl.thumbnail',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -2,8 +2,8 @@
 
 ## Features
 
-* Works on Python3
-* Uses Django 1.9
+* Works on [Python3][0]
+* Uses [Django 1.9][1]
 
 ## The project include
 
@@ -14,8 +14,10 @@
 * [django-libsass][6]
 * [django-ckeditor][7]
 * [sorl-thumbnail][8]
-* [Pillow][9]
-* [pytz][10]
+* [django-widget-tweaks][9]
+* [Pillow][10]
+* [pytz][11]
+* [bootstrap-3.3.6][12]
 
 
 ## Quick start:
@@ -23,8 +25,7 @@
 1. Run Script! :D
 
 ```sh 
-curl -o temp.sh https://raw.githubusercontent.com/CleitonDeLima/django-skeleton/master/contrib/setup.sh 
-&& bash ./temp.sh && rm temp.sh
+curl -o temp.sh https://raw.githubusercontent.com/CleitonDeLima/django-skeleton/master/contrib/setup.sh && bash ./temp.sh && rm temp.sh
 ```
 
 2. Activate venv!
@@ -51,8 +52,8 @@ source .project_name/bin/activate
 To set up a development environment quickly, first install Python 3. It
 comes with virtualenv built-in. So create a virtual env by:
 
-    1. `$ python3 -m venv {{ project_name }}`
-    2. `$ . {{ project_name }}/bin/activate`
+    1. `$ python3 -m venv .{{ project_name }}`
+    2. `$ .{{ project_name }}/bin/activate`
 
 Install all dependencies:
 
@@ -74,5 +75,7 @@ Run makemigrations and migrations:
 [6]: https://github.com/torchbox/django-libsass
 [7]: https://github.com/django-ckeditor/django-ckeditor
 [8]: https://github.com/mariocesar/sorl-thumbnail
-[9]: https://github.com/python-pillow/Pillow
-[10]: https://pypi.python.org/pypi/pytz?
+[9]: https://github.com/kmike/django-widget-tweaks/
+[10]: https://github.com/python-pillow/Pillow
+[11]: https://pypi.python.org/pypi/pytz?
+[12]: http://getbootstrap.com/
